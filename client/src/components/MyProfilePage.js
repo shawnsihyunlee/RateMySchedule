@@ -17,6 +17,7 @@ export default function MyProfilePage () {
     <>
 
     <Header />
+    <h2 className = "text-center" style = {{margin: "20px auto"}}><b>My Profile</b></h2>
     <Container fluid className="d-flex align-items-center justify-content-center">
         <Profile name="Bob" year="Junior" major="ECE" numSchedules="73" numCredits={localStorage.getItem("credits")} rating="4.3"/>
     </Container>

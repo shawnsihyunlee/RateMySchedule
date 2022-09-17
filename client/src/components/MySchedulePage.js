@@ -52,7 +52,7 @@ export default function MySchedulePage(){
       </style>
       <Row>
         <Col className="text-center">
-        <h2><b>Your Schedule</b></h2> 
+        <h2 style = {{margin: "20px auto"}}><b>Your Schedule</b></h2> 
         </Col>
       </Row>
       <Row>
