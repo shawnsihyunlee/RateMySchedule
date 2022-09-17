@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Profile from './Profile';
 import MySchedule from "./MySchedule";
-import s1 from "../assets/scheduleJSONs/sched2.json"
+import jsons from "./ScheduleJsons";
 import { parseScheduleData } from "./ScheduleParserFinal";
 
 export default function Friends () {
@@ -43,8 +43,8 @@ export default function Friends () {
   const handleClose6 = () => setShow6(false);
   const handleShow6 = () => setShow6(true);
 
-  const handleClose7 = () => setShow6(false);
-  const handleShow7 = () => setShow6(true);
+  const handleClose7 = () => setShow7(false);
+  const handleShow7 = () => setShow7(true);
 
   // For showing list.
 
@@ -58,7 +58,7 @@ export default function Friends () {
           <td>Junior</td>
           <td>Business/CS</td>
           <td>winstonzha</td>
-          <td><Button variant="primary"> View Schedule </Button></td>
+          <td><Button variant="primary" onClick={handleShow7}> View Schedule </Button></td>
           <td><Button variant="secondary" onClick={handleShow3}>Profile</Button></td>
     </tr>
   )
@@ -140,17 +140,17 @@ export default function Friends () {
       </Modal>
 
       <Modal show={show4} onHide={handleClose4} className="modal-lg">
-        <Modal.Body ><MySchedule events = {parseScheduleData(s1)}/></Modal.Body>
+        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[0])}/></Modal.Body>
       </Modal>
       <Modal show={show5} onHide={handleClose5} className="modal-lg">
-        <Modal.Body ><MySchedule/></Modal.Body>
+        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[1])}/></Modal.Body>
       </Modal>
       <Modal show={show6} onHide={handleClose6} className="modal-lg">
-        <Modal.Body ><MySchedule/></Modal.Body>
+        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[2])}/></Modal.Body>
       </Modal>
 
       <Modal show={show7} onHide={handleClose7} className="modal-lg">
-        <Modal.Body ><MySchedule/></Modal.Body>
+        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[3])}/></Modal.Body>
       </Modal>
     </div>
   );
