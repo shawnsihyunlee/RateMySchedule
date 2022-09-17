@@ -11,6 +11,7 @@ import pfp from '../assets/pfp.svg';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import {medals, prefixes, suffixes} from "./AchievementData"
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 export default function Profile (props) {
