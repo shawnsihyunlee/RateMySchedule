@@ -3,11 +3,12 @@ import React from 'react'
 const Progress_bar = ({bgcolor,progress,height}) => {
      
     const Parentdiv = {
-        // marginRight: -850,
+        marginRight: 0,
         height: height,
-        width: '100%',
+        width: '15%',
         backgroundColor: 'whitesmoke',
         borderRadius: 30,
+        borderColor: "coral"
 
         
         // margin: 50

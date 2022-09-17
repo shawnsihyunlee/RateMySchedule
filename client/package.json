@@ -2,7 +2,8 @@
   "name": "ratemyschedule",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:1234",
+  "proxy": "http://localhost:3000",
+  
   "dependencies": {
     "@daypilot/daypilot-lite-react": "^3.10.1",
     "@emotion/react": "^11.10.4",

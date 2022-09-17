@@ -19,8 +19,7 @@ export default function Header(){
 						RateMySchedule
 				</Navbar.Brand>
            
-				{/* <ProgressBar bgcolor="#99ff66" progress='100'  height={12} /> */}
-			
+				<ProgressBar style = {{marginLeft:"100 px"}} bgcolor="#99ff66" progress='100'  height={12} />
 				
                 <Navbar.Text>
                     Credits : {localStorage.getItem("credits")}
