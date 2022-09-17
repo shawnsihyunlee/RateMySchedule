@@ -8,7 +8,10 @@ export default function LandingPage(){
         <div style={{backgroundImage: `url("https://unbounce.com/photos/Gradient-Background.png")`,
                 height: "100vh"}}>
             <Container fluid className="h-100 center-text d-flex flex-column align-items-center justify-content-center">
-                <h1 className = "display-3">
+                <h1 className = "display-1" style={{fontSize: "8vw"}}>
+                    RateMySchedule™
+                </h1>
+                <h1 className = "display-5">
                     Make schedules like never before.
                 </h1>
                 <form action="/schedule/open" method="post">

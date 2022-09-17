@@ -35,7 +35,7 @@ export default function Profile (props) {
          </Figure>
         </Row>
 
-        <Row>
+        <Row style={{margin: "20px"}}>
           <ExpBar/>
         </Row>
           

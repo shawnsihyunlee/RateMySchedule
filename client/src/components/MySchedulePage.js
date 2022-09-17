@@ -83,22 +83,22 @@ export default function MySchedulePage(){
             <Row>
             <Accordion alwaysOpen  style={{verticalAlign: "middle"}}>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Academic Difficulty: <Rating name={"read-only"} value={3.5} precision= {0.1} readOnly style={{marginLeft: "5px"}} /> </Accordion.Header>
+                <Accordion.Header>Academic Difficulty: <Rating name={"read-only"} value={4.5} precision= {0.1} readOnly style={{marginLeft: "5px"}} /> </Accordion.Header>
                 <Accordion.Body>
                 <ListGroup>
-                  <ListGroup.Item>Course Difficulty: <Rating name={"read-only"} value={4} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
-                  <ListGroup.Item>Workload: <Rating name={"read-only"} value={4} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
-                  <ListGroup.Item>Professor Difficulty: <Rating name={"read-only"} value={1} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Course Difficulty: <Rating name={"read-only"} value={5} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Workload: <Rating name={"read-only"} value={5} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Professor Difficulty: <Rating name={"read-only"} value={4} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
                 </ListGroup>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Accessibility Difficulty: <Rating name={"read-only"} value={2} precision= {0.1} readOnly style={{marginLeft: "5px"}}/> </Accordion.Header>
+                <Accordion.Header>Accessibility Difficulty: <Rating name={"read-only"} value={3.5} precision= {0.1} readOnly style={{marginLeft: "5px"}}/> </Accordion.Header>
                 <Accordion.Body>
                 <ListGroup>
-                  <ListGroup.Item>Commute Times: <Rating name={"read-only"} value={3} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
-                  <ListGroup.Item>Morning/Evening Classes: <Rating name={"read-only"} value={2} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
-                  <ListGroup.Item>Lunch Breaks: <Rating name={"read-only"} value={1} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Commute Times: <Rating name={"read-only"} value={1} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Morning/Evening Classes: <Rating name={"read-only"} value={4} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
+                  <ListGroup.Item>Lunch Breaks: <Rating name={"read-only"} value={4} readOnly style={{marginLeft: "5px"}}/></ListGroup.Item>
                 </ListGroup>
                 </Accordion.Body>
               </Accordion.Item>

@@ -18,7 +18,7 @@ export default function Header(){
 						RateMySchedule
 				</Navbar.Brand>
                 <Navbar.Text>
-                    Credits : {localStorage.getItem("credits")}
+                    <b>Credits : {localStorage.getItem("credits")}</b>
                 </Navbar.Text>
 			</Container>
 		</Navbar>

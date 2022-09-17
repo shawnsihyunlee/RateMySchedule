@@ -140,17 +140,25 @@ export default function Friends () {
       </Modal>
 
       <Modal show={show4} onHide={handleClose4} className="modal-lg">
-        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[0])}/></Modal.Body>
+        <Modal.Body className= "text-center" >
+          <h3 className = "display-5">Shawn's Schedule</h3>
+          <MySchedule events = {parseScheduleData(jsons[0])}/></Modal.Body>
       </Modal>
       <Modal show={show5} onHide={handleClose5} className="modal-lg">
-        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[1])}/></Modal.Body>
+        <Modal.Body className= "text-center">
+          <h3 className = "display-5">Teo's Schedule</h3>
+          <MySchedule events = {parseScheduleData(jsons[1])}/></Modal.Body>
       </Modal>
       <Modal show={show6} onHide={handleClose6} className="modal-lg">
-        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[2])}/></Modal.Body>
+        <Modal.Body className= "text-center">
+          <h3 className = "display-5">Andrew's Schedule</h3>
+          <MySchedule events = {parseScheduleData(jsons[2])}/></Modal.Body>
       </Modal>
 
       <Modal show={show7} onHide={handleClose7} className="modal-lg">
-        <Modal.Body ><MySchedule events = {parseScheduleData(jsons[3])}/></Modal.Body>
+        <Modal.Body className= "text-center">
+          <h3 className = "display-5">Winston's Schedule</h3>
+          <MySchedule events = {parseScheduleData(jsons[3])}/></Modal.Body>
       </Modal>
     </div>
   );

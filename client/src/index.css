@@ -16,9 +16,9 @@ code {
   margin: 10;
   background: #2e78d6;
   color: #fff;
-  border: #08254b;
+  border-color: #00095c;
   border-radius: 5px;
-  font-size: 10pt;
+  font-size: 9pt;
   padding: 5px;
   opacity: 0.8;
 }
