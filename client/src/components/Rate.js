@@ -19,9 +19,10 @@ import jsons from "./ScheduleJsons";
 
 export default function Rate () {
 
-  
+  let yearLevel = ["Freshman", "Sophomore", "Junior", "Senior"]
+  let majors = ["SCS undeclared", "MechE", "ChemE", "ECE", "Physics", "Chemistry", "CivE", "Business"]
 
-  let e = parseScheduleData(json[]);
+  let e = parseScheduleData(jsons[Math.floor(Math.random()*jsons.length)]);
 
   //Academic Difficulties
   const [courseDiff, setCourseDiff] = useState(0);
@@ -50,7 +51,6 @@ export default function Rate () {
   const handleClick = ()=>{
     console.log("Clicked!");
     setCredits(credits + 1);
-    
   }
 
   return (
@@ -82,7 +82,7 @@ export default function Rate () {
                               SCS Undeclared
                           </Badge>{' '}
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              N/A
+                              3.6
                           </Badge>{' '}
                           </h5>
                         </Row>
