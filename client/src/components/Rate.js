@@ -62,9 +62,9 @@ export default function Rate () {
                 
                 <Row>
                     <Col className="text-center">
-                    <h2>Rate this schedule!</h2> 
-                  
+                    <h2><b>Rate this schedule!</b></h2> 
                     </Col>
+                    
                 </Row>
                 <Row>
                     <Col lg={8}>
