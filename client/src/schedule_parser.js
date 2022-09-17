@@ -4,7 +4,7 @@ const fs = require("fs");
 
 function parseSchedule () {
     
-    const MY_ICAL_STRING = fs.readFileSync("./F22_schedule_ayoun2.ics", "utf-8");
+    const MY_ICAL_STRING = fs.readFileSync("./schedules", "utf-8");
     
     let parsedCal = ical.parseString(MY_ICAL_STRING);
     let summary;
@@ -26,7 +26,7 @@ function parseSchedule () {
         delete curr_obj.dtstamp
         delete curr_obj.description;
         delete curr_obj.summary;
-        delete curr_obj.recurrenceRule;
+        // delete curr_obj.recurrenceRule;
         curr_obj.dtstart = curr_obj.dtstart.value;
         curr_obj.dtend = curr_obj.dtend.value;
     }
@@ -37,16 +37,7 @@ function parseSchedule () {
     
     return parsedCal;
 }
-const cal = JSON.stringify(parseSchedule());
+// const cal = JSON.stringify(parseSchedule());
 
-// write JSON string to a file
-fs.writeFile('./src/assets/scheduleJSONs/ayoun2.json', cal, (err) => {
-    if (err) {
-        throw err;
-    }
-    console.log("JSON data is saved.");
-// });
-// console.log(cal.events)
-})
 
 module.exports = { parseSchedule };
