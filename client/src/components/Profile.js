@@ -11,6 +11,7 @@ import pfp from '../assets/pfp.svg';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import {medals, prefixes, suffixes} from "./AchievementData"
+import ExpBar from "./ProgressBar";
 
 
 export default function Profile (props) {
@@ -32,6 +33,10 @@ export default function Profile (props) {
               {props.name}
             </Figure.Caption>
          </Figure>
+        </Row>
+
+        <Row>
+          <ExpBar/>
         </Row>
           
         <Row>

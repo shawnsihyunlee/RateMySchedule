@@ -4,7 +4,7 @@ const fs = require("fs");
 
 function parseSchedule () {
     
-    const MY_ICAL_STRING = fs.readFileSync("./schedules", "utf-8");
+    const MY_ICAL_STRING = fs.readFileSync("./schedules/asdf_schedule.ics", "utf-8");
     
     let parsedCal = ical.parseString(MY_ICAL_STRING);
     let summary;
@@ -37,7 +37,13 @@ function parseSchedule () {
     
     return parsedCal;
 }
-// const cal = JSON.stringify(parseSchedule());
+const cal = JSON.stringify(parseSchedule().events);
 
+fs.writeFile('./assets/scheduleJSONs/gg_user.json', cal, (err) => {
+    if (err) {
+        throw err;
+    }
+    console.log("JSON data is saved.");
+});
 
 module.exports = { parseSchedule };

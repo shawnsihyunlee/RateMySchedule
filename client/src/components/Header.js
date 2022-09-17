@@ -2,7 +2,6 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import icon from '../assets/icon.svg';
-import ProgressBar from "./ProgressBar";
 
 export default function Header(){
 	return(
@@ -18,9 +17,6 @@ export default function Header(){
                         className="d-inline-block align-top"/>{' '}
 						RateMySchedule
 				</Navbar.Brand>
-           
-				<ProgressBar style = {{marginLeft:"100 px"}} bgcolor="#99ff66" progress='100'  height={12} />
-				
                 <Navbar.Text>
                     Credits : {localStorage.getItem("credits")}
                 </Navbar.Text>

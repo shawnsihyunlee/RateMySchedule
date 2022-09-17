@@ -14,6 +14,7 @@ import data from '../assets/exampleSchedule.json';
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import {parseScheduleData} from './ScheduleParserFinal';
+import "../index.css"
 
 export default function MySchedulePage(){
   //Modal
@@ -58,7 +59,7 @@ export default function MySchedulePage(){
         <Col lg={8}>
             <Card>
             <Card.Body>
-                <MySchedule events = {e}/>
+                <MySchedule className = "calendar_default_event_inner" events = {e}/>
             </Card.Body>
             </Card>
         </Col>
