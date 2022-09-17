@@ -62,7 +62,7 @@ export default function Rate () {
                 
                 <Row>
                     <Col className="text-center">
-                    <h2><b>Rate this schedule!</b></h2> 
+                    <h2 style = {{margin: "20px auto"}}><b>Rate this schedule!</b></h2> 
                     </Col>
                     
                 </Row>

@@ -67,7 +67,7 @@ export default function Friends () {
 
     <div>
       <Header/>
-      <h1 className = "text-center">My Friends</h1>
+      <h2 className = "text-center" style = {{margin: "20px auto"}}><b>My Friends</b></h2>
       <Container fluid = "sm">
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
