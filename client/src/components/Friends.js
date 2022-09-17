@@ -7,7 +7,9 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Profile from './Profile';
-
+import MySchedule from "./MySchedule";
+import s1 from "../assets/scheduleJSONs/sched2.json"
+import { parseScheduleData } from "./ScheduleParserFinal";
 
 export default function Friends () {
 
@@ -15,7 +17,10 @@ export default function Friends () {
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
-
+  const [show4, setShow4] = useState(false);
+  const [show5, setShow5] = useState(false);
+  const [show6, setShow6] = useState(false);
+  const [show7, setShow7] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -28,6 +33,18 @@ export default function Friends () {
 
   const handleClose3 = () => setShow3(false);
   const handleShow3 = () => setShow3(true);
+
+  const handleClose4 = () => setShow4(false);
+  const handleShow4 = () => setShow4(true);
+
+  const handleClose5 = () => setShow5(false);
+  const handleShow5 = () => setShow5(true);
+
+  const handleClose6 = () => setShow6(false);
+  const handleShow6 = () => setShow6(true);
+
+  const handleClose7 = () => setShow6(false);
+  const handleShow7 = () => setShow6(true);
 
   // For showing list.
 
@@ -80,7 +97,7 @@ export default function Friends () {
           <td>Freshman</td>
           <td>CS Undeclared</td>
           <td>shawneeboy</td>
-          <td><Button variant="primary"> View Schedule </Button></td>
+          <td><Button variant="primary" onClick={handleShow4}> View Schedule </Button></td>
           <td><Button variant="secondary" onClick={handleShow}>Profile</Button></td>
           </tr>
           <tr>
@@ -88,7 +105,7 @@ export default function Friends () {
           <td>Junior</td>
           <td>Physics/CS</td>
           <td>tsohn</td>
-          <td><Button variant="primary"> View Schedule </Button></td>
+          <td><Button variant="primary" onClick={handleShow5}> View Schedule </Button></td>
           <td><Button variant="secondary" onClick={handleShow1}>Profile</Button></td>
           </tr>
           <tr>
@@ -96,7 +113,7 @@ export default function Friends () {
           <td>Junior</td>
           <td>MechE/CS</td>
           <td>theightine</td>
-          <td><Button variant="primary"> View Schedule </Button></td>
+          <td><Button variant="primary" onClick={handleShow6}> View Schedule </Button></td>
           <td><Button variant="secondary" onClick={handleShow2}>Profile</Button></td>
           </tr>
 
@@ -120,6 +137,20 @@ export default function Friends () {
       </Modal>
       <Modal show={show3} onHide={handleClose3}>
         <Modal.Body><Profile name="Winston Zha" year="Junior" major="Business/CS" numSchedules="13" numCredits="27" rating="3.5"/></Modal.Body>
+      </Modal>
+
+      <Modal show={show4} onHide={handleClose4} className="modal-lg">
+        <Modal.Body ><MySchedule events = {parseScheduleData(s1)}/></Modal.Body>
+      </Modal>
+      <Modal show={show5} onHide={handleClose5} className="modal-lg">
+        <Modal.Body ><MySchedule/></Modal.Body>
+      </Modal>
+      <Modal show={show6} onHide={handleClose6} className="modal-lg">
+        <Modal.Body ><MySchedule/></Modal.Body>
+      </Modal>
+
+      <Modal show={show7} onHide={handleClose7} className="modal-lg">
+        <Modal.Body ><MySchedule/></Modal.Body>
       </Modal>
     </div>
   );

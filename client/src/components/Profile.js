@@ -14,6 +14,7 @@ import gold from '../assets/gold.svg';
 import silver from '../assets/silver.svg';
 import bronze from '../assets/bronze.svg';
 
+
 export default function Profile (props) {
   return (
     <Card body>

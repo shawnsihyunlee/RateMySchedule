@@ -12,12 +12,17 @@ import Badge from 'react-bootstrap/Badge';
 import Rating from '@mui/material/Rating'
 import ListGroup from 'react-bootstrap/ListGroup';
 import MySchedule from "./MySchedule";
-
-
-
+import {parseScheduleData} from './ScheduleParserFinal';
+import data from "../assets/exampleSchedule.json";
+import jsons from "./ScheduleJsons";
 
 
 export default function Rate () {
+
+  
+
+  let e = parseScheduleData(json[]);
+
   //Academic Difficulties
   const [courseDiff, setCourseDiff] = useState(0);
   const [workDiff, setWorkDiff] = useState(0);
@@ -45,6 +50,7 @@ export default function Rate () {
   const handleClick = ()=>{
     console.log("Clicked!");
     setCredits(credits + 1);
+    
   }
 
   return (
@@ -62,7 +68,7 @@ export default function Rate () {
                     <Col lg={8}>
                     <Card>
                     <Card.Body>
-                        <MySchedule/>
+                        <MySchedule events = {e}/>
                     </Card.Body>
                     </Card>
                     </Col>

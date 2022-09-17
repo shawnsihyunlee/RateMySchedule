@@ -1,0 +1,664 @@
+[
+    {
+      "dtstart": "2022-08-29T15:05:00.000Z",
+      "dtend": "2022-08-29T16:25:00.000Z",
+      "location": {
+        "building": "GHC",
+        "room": "4401"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 0
+            }
+          ],
+          "dtstart": "2022-08-29T15:05:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-29T15:05:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            0
+          ],
+          "bynweekday": null,
+          "byhour": [
+            15
+          ],
+          "byminute": [
+            5
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "First Year Immigration Course",
+        "no": "07128",
+        "section": "A",
+        "instructor": [
+          "Cortina;",
+          "Peet"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-31T15:05:00.000Z",
+      "dtend": "2022-08-31T16:25:00.000Z",
+      "location": {
+        "building": "GHC",
+        "room": "4401"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 2
+            }
+          ],
+          "dtstart": "2022-08-31T15:05:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-31T15:05:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            2
+          ],
+          "bynweekday": null,
+          "byhour": [
+            15
+          ],
+          "byminute": [
+            5
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Great Practical Ideas for Computer Scientists",
+        "no": "07131",
+        "section": "A",
+        "instructor": [
+          "Cortina;",
+          "Peet"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-30T08:35:00.000Z",
+      "dtend": "2022-08-30T09:55:00.000Z",
+      "location": {
+        "building": "CUC",
+        "room": "MCCNMY"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 1
+            },
+            {
+              "weekday": 3
+            }
+          ],
+          "dtstart": "2022-08-30T08:35:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-30T08:35:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            1,
+            3
+          ],
+          "bynweekday": null,
+          "byhour": [
+            8
+          ],
+          "byminute": [
+            35
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Principles of Imperative Computation",
+        "no": "15122",
+        "section": "1",
+        "instructor": [
+          "Cervesato;",
+          "Kaynar"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-29T17:45:00.000Z",
+      "dtend": "2022-08-29T18:35:00.000Z",
+      "location": {
+        "building": "GHC",
+        "room": "CLSTR"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 0
+            }
+          ],
+          "dtstart": "2022-08-29T17:45:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-29T17:45:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            0
+          ],
+          "bynweekday": null,
+          "byhour": [
+            17
+          ],
+          "byminute": [
+            45
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Principles of Imperative Computation",
+        "no": "15122",
+        "section": "I",
+        "instructor": [
+          "Cervesato;",
+          "Kaynar"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-09-02T17:45:00.000Z",
+      "dtend": "2022-09-02T18:35:00.000Z",
+      "location": {
+        "building": "PH",
+        "room": "A18B"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 4
+            }
+          ],
+          "dtstart": "2022-09-02T17:45:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-09-02T17:45:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            4
+          ],
+          "bynweekday": null,
+          "byhour": [
+            17
+          ],
+          "byminute": [
+            45
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Principles of Imperative Computation",
+        "no": "15122",
+        "section": "I",
+        "instructor": [
+          "Cervesato;",
+          "Kaynar"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-29T13:25:00.000Z",
+      "dtend": "2022-08-29T14:15:00.000Z",
+      "location": {
+        "building": "GHC",
+        "room": "4401"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 0
+            },
+            {
+              "weekday": 2
+            },
+            {
+              "weekday": 4
+            }
+          ],
+          "dtstart": "2022-08-29T13:25:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-29T13:25:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            0,
+            2,
+            4
+          ],
+          "bynweekday": null,
+          "byhour": [
+            13
+          ],
+          "byminute": [
+            25
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Mathematical Foundations for Computer Science",
+        "no": "15151",
+        "section": "1",
+        "instructor": [
+          "Mackey;",
+          "Sutner"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-30T12:20:00.000Z",
+      "dtend": "2022-08-30T13:10:00.000Z",
+      "location": {
+        "building": "BH",
+        "room": "235B"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 1
+            },
+            {
+              "weekday": 3
+            }
+          ],
+          "dtstart": "2022-08-30T12:20:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-30T12:20:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            1,
+            3
+          ],
+          "bynweekday": null,
+          "byhour": [
+            12
+          ],
+          "byminute": [
+            20
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Mathematical Foundations for Computer Science",
+        "no": "15151",
+        "section": "G",
+        "instructor": [
+          "Mackey;",
+          "Sutner"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-29T09:05:00.000Z",
+      "dtend": "2022-08-29T09:55:00.000Z",
+      "location": {
+        "building": "POS",
+        "room": "A35"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 0
+            },
+            {
+              "weekday": 2
+            },
+            {
+              "weekday": 4
+            }
+          ],
+          "dtstart": "2022-08-29T09:05:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-29T09:05:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            0,
+            2,
+            4
+          ],
+          "bynweekday": null,
+          "byhour": [
+            9
+          ],
+          "byminute": [
+            5
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Matrices and Linear Transformations",
+        "no": "21241",
+        "section": "3",
+        "instructor": [
+          "Offner"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-09-01T13:25:00.000Z",
+      "dtend": "2022-09-01T14:15:00.000Z",
+      "location": {
+        "building": "PH",
+        "room": "A18A"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 3
+            }
+          ],
+          "dtstart": "2022-09-01T13:25:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-09-01T13:25:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            3
+          ],
+          "bynweekday": null,
+          "byhour": [
+            13
+          ],
+          "byminute": [
+            25
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Matrices and Linear Transformations",
+        "no": "21241",
+        "section": "H",
+        "instructor": [
+          "Marun"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-08-29T10:10:00.000Z",
+      "dtend": "2022-08-29T11:00:00.000Z",
+      "location": {
+        "building": "PH",
+        "room": "A18C"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 0
+            },
+            {
+              "weekday": 2
+            }
+          ],
+          "dtstart": "2022-08-29T10:10:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-08-29T10:10:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            0,
+            2
+          ],
+          "bynweekday": null,
+          "byhour": [
+            10
+          ],
+          "byminute": [
+            10
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Introduction to Ethics",
+        "no": "80130",
+        "section": "1",
+        "instructor": [
+          "Gray"
+        ]
+      }
+    },
+    {
+      "dtstart": "2022-09-02T11:15:00.000Z",
+      "dtend": "2022-09-02T12:05:00.000Z",
+      "location": {
+        "building": "PH",
+        "room": "A19"
+      },
+      "recurrenceRule": {
+        "_cache": null,
+        "origOptions": {
+          "freq": 2,
+          "until": "2022-12-11T00:00:00.000Z",
+          "byweekday": [
+            {
+              "weekday": 4
+            }
+          ],
+          "dtstart": "2022-09-02T11:15:00.000Z"
+        },
+        "options": {
+          "freq": 2,
+          "dtstart": "2022-09-02T11:15:00.000Z",
+          "interval": 1,
+          "wkst": 0,
+          "count": null,
+          "until": "2022-12-11T00:00:00.000Z",
+          "bysetpos": null,
+          "bymonth": null,
+          "bymonthday": [],
+          "bynmonthday": [],
+          "byyearday": null,
+          "byweekno": null,
+          "byweekday": [
+            4
+          ],
+          "bynweekday": null,
+          "byhour": [
+            11
+          ],
+          "byminute": [
+            15
+          ],
+          "bysecond": [
+            0
+          ],
+          "byeaster": null
+        }
+      },
+      "course": {
+        "name": "Introduction to Ethics",
+        "no": "80130",
+        "section": "B",
+        "instructor": [
+          "Gray"
+        ]
+      }
+    }
+  ]

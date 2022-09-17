@@ -19,7 +19,7 @@ export default function Header(){
 						RateMySchedule
 				</Navbar.Brand>
            
-				<ProgressBar bgcolor="#99ff66" progress='100'  height={12} />
+				{/* <ProgressBar bgcolor="#99ff66" progress='100'  height={12} /> */}
 			
 				
                 <Navbar.Text>
