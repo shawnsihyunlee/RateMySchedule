@@ -18,8 +18,6 @@ export default function Header(){
                         className="d-inline-block align-top"/>{' '}
 						RateMySchedule
 				</Navbar.Brand>
-           
-				<ProgressBar style = {{marginLeft:"100 px"}} bgcolor="#99ff66" progress='100'  height={12} />
 				
                 <Navbar.Text>
                     Credits : {localStorage.getItem("credits")}

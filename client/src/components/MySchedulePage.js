@@ -35,13 +35,13 @@ export default function MySchedulePage(){
   }, [credits]);
 
   const handleClick = ()=>{
+    setCredits(credits - 10);
     handleShow();
     console.log("Clicked!");
-    setCredits(credits - 10);
   }
 
   let e = parseScheduleData(data);
-
+  
   return(
     <>
       <Header/>
@@ -51,7 +51,7 @@ export default function MySchedulePage(){
       </style>
       <Row>
         <Col className="text-center">
-        <h2>Your Schedule</h2> 
+        <h2><b>Your Schedule</b></h2> 
         </Col>
       </Row>
       <Row>
