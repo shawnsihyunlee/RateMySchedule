@@ -19,8 +19,10 @@ import jsons from "./ScheduleJsons";
 
 export default function Rate () {
 
-  let yearLevel = ["Freshman", "Sophomore", "Junior", "Senior"]
-  let majors = ["SCS undeclared", "MechE", "ChemE", "ECE", "Physics", "Chemistry", "CivE", "Business"]
+  let yearLevel = ["Freshman", "Sophomore", "Junior", "Senior"];
+  let majors = ["CS", "MechE", "ChemE", "ECE", "Physics", 
+                "Chemistry", "CivE", "Business", "Design", "Architecture", 
+                "StatML", "Math", "Biology"];
 
   let e = parseScheduleData(jsons[Math.floor(Math.random()*jsons.length)]);
 
@@ -76,13 +78,13 @@ export default function Rate () {
                         <Row className="text-center">
                           <h5>
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              Freshman
+                              {"Year: " + yearLevel[Math.floor(Math.random()*yearLevel.length)]}
                           </Badge>{' '}
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              SCS Undeclared
+                              {"Major: " + majors[Math.floor(Math.random()*majors.length)]}
                           </Badge>{' '}
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              3.6
+                            {"GPA: " + ((Math.floor(Math.random() * 400)) / 100)}
                           </Badge>{' '}
                           </h5>
                         </Row>

@@ -1,6 +1,6 @@
 import BottomNav from "./BottomNav";
 import Header from "./Header";
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import MySchedule from "./MySchedule";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,9 +11,34 @@ import Rating from '@mui/material/Rating'
 import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
 import data from '../assets/exampleSchedule.json';
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import {parseScheduleData} from './ScheduleParserFinal';
 
 export default function MySchedulePage(){
+  //Modal
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  //Credits
+  const [credits, setCredits] = useState(() => {
+    // getting stored value
+    const saved = localStorage.getItem("credits");
+    const initialValue = JSON.parse(saved);
+    return initialValue || 0;
+  });
+
+  useEffect(() => {
+    // storing input name
+    localStorage.setItem("credits", JSON.stringify(credits));
+  }, [credits]);
+
+  const handleClick = ()=>{
+    handleShow();
+    console.log("Clicked!");
+    setCredits(credits - 10);
+  }
 
   let e = parseScheduleData(data);
 
@@ -102,9 +127,22 @@ export default function MySchedulePage(){
                 <p><small>Oh my god. Help.</small></p>
               </div>
             </Row>
+            <Row>
+              <Button onClick={handleClick}>
+                Rate My Schedule!
+              </Button>
+            </Row>
           </Col>
         </Row>
       </Container>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Body className="text-center">
+          <p>
+            Your schedule has been submitted for ratings!
+          </p>
+        </Modal.Body>
+      </Modal>
       
       <BottomNav/>
     </>

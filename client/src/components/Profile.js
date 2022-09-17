@@ -10,12 +10,13 @@ import Figure from 'react-bootstrap/Figure';
 import pfp from '../assets/pfp.svg';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
-import gold from '../assets/gold.svg';
-import silver from '../assets/silver.svg';
-import bronze from '../assets/bronze.svg';
+import {medals, prefixes, suffixes} from "./AchievementData"
 
 
 export default function Profile (props) {
+  let randNums = [Math.floor(Math.random() * medals.length),
+                  Math.floor(Math.random() * medals.length), 
+                  Math.floor(Math.random() * medals.length)];
   return (
     <Card body>
       <Container fluid className="text-center">
@@ -59,10 +60,11 @@ export default function Profile (props) {
               width={25}
               height={25}  
               alt="171x180"
-              src={gold}
+
+              src={medals[randNums[0]]}
               />
               <Figure.Caption>
-                {"Master Scheduler"}
+                {prefixes[randNums[0]] + suffixes[Math.floor(Math.random() * suffixes.length)]}
               </Figure.Caption>
             </Figure>
           </Col>
@@ -72,10 +74,10 @@ export default function Profile (props) {
               width={25}
               height={25}  
               alt="171x180"
-              src={bronze}
+              src={medals[randNums[1]]}
               />
               <Figure.Caption>
-                {"Novice Talker"}
+                {prefixes[randNums[1]] + suffixes[Math.floor(Math.random() * suffixes.length)]}
               </Figure.Caption>
             </Figure>
           </Col>
@@ -85,10 +87,10 @@ export default function Profile (props) {
               width={25}
               height={25}  
               alt="171x180"
-              src={silver}
+              src={medals[randNums[2]]}
               />
               <Figure.Caption>
-                {"Apprentice Critic"}
+                {prefixes[randNums[2]] + suffixes[Math.floor(Math.random() * suffixes.length)]}
               </Figure.Caption>
             </Figure>
           </Col>

@@ -13,8 +13,6 @@ const styles = {
   }
 };
 
-
-
 class Calendar extends Component {
     constructor(props) {
         super(props);
