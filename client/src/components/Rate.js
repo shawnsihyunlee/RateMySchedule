@@ -55,6 +55,12 @@ export default function Rate () {
     setCredits(credits + 1);
   }
 
+  //User info
+
+  const [year, setYear] = useState(yearLevel[Math.floor(Math.random()*yearLevel.length)]);
+  const [major, setMajor] =  useState(majors[Math.floor(Math.random()*majors.length)]);
+  const [gpa, setGpa] = useState( ((Math.floor(Math.random() * 400)) / 100));
+
   return (
     <div>
       <Header/>
@@ -78,13 +84,13 @@ export default function Rate () {
                         <Row className="text-center">
                           <h5>
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              {"Year: " + yearLevel[Math.floor(Math.random()*yearLevel.length)]}
+                              {"Year: " + year}
                           </Badge>{' '}
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                              {"Major: " + majors[Math.floor(Math.random()*majors.length)]}
+                              {"Major: " + major}
                           </Badge>{' '}
                           <Badge pill bg="secondary" style = {{margin: "5px"}}>
-                            {"GPA: " + ((Math.floor(Math.random() * 400)) / 100)}
+                            {"GPA: " + gpa}
                           </Badge>{' '}
                           </h5>
                         </Row>
