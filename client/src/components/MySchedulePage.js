@@ -14,6 +14,7 @@ import data from '../assets/exampleSchedule.json';
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import {parseScheduleData} from './ScheduleParserFinal';
+// import Dropzone from "./FileDragDrop";
 import "../index.css"
 
 export default function MySchedulePage(){
@@ -62,6 +63,9 @@ export default function MySchedulePage(){
                 <MySchedule className = "calendar_default_event_inner" events = {e}/>
             </Card.Body>
             </Card>
+            {/* <Row>
+                <Dropzone />
+            </Row> */}
         </Col>
         <Col lg={4}>
             <Row className="text-center">
