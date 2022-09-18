@@ -37,13 +37,13 @@ function parseSchedule () {
     
     return parsedCal;
 }
-const cal = JSON.stringify(parseSchedule().events);
+// const cal = JSON.stringify(parseSchedule().events);
 
-fs.writeFile('./assets/scheduleJSONs/gg_user.json', cal, (err) => {
-    if (err) {
-        throw err;
-    }
-    console.log("JSON data is saved.");
-});
+// fs.writeFile('./assets/scheduleJSONs/gg_user.json', cal, (err) => {
+//     if (err) {
+//         throw err;
+//     }
+//     console.log("JSON data is saved.");
+// });
 
 module.exports = { parseSchedule };
